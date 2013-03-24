@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+	<TableRow     
+	    android:id="@+id/tableRow2"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" >  
+	    <com.google.ads.AdView  
+	        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"  
+	        android:id="@+id/ad"  
+	        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+	        ads:adSize="SMART_BANNER" 
+	        ads:adUnitId="a15145178c106ac" />      
+	</TableRow>
+
+	<Chronometer
+	    android:id="@+id/timer"
+			 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent" 
+	    android:layout_centerHorizontal="true"
+	    android:gravity="center_horizontal"
+	    android:textColor="@color/white" />
+          
+</RelativeLayout>

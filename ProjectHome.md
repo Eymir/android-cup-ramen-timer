@@ -1,0 +1,1 @@
+This an Android application simply help user to count down 3 minutes when cooking their cup noodle. It will display animation and play sound to remind user their cup noodle had been cooked for 3 minutes and it is being ready now. At this stage, it is primary an Android app supporting Android smart phone and tablet platform.
